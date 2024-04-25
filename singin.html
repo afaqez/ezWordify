@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/signin.css" />
-    <title>Sign Up</title>
+    <title>Sign In</title>
   </head>
   <body>
-    <div class="sign-up-container">
-      <h1>Create Account</h1>
+    <div class="sign-in-container">
       <div class="left-side">
 
 
@@ -17,8 +16,8 @@
 
       
       <div class="right-side">
+        <h1>Sign In</h1>
         <form action="" class="signup-form">
-  
             <div class="form-control">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,11 +58,30 @@
               <input type="password" id="pass" placeholder="Password" required />
             </div>
   
-            <button class="btn">Sign Up</button>
+            <button class="btn">Sign In</button>
+            
           </form>
       </div>
 
 
+
+
     </div>
+    <script>
+      const signUpContainer = document.querySelector('.sign-up-container');
+      const signInContainer = document.querySelector('.sign-in-container');
+
+      // Function to switch between Sign Up and Sign In
+      function switchToSignUp() {
+          signUpContainer.style.left = '0';
+          signInContainer.style.left = '100%';
+      }
+
+      function switchToSignIn() {
+          signUpContainer.style.left = '100%';
+          signInContainer.style.left = '0';
+      }
+  </script>
+
   </body>
 </html>

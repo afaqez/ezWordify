@@ -36,14 +36,32 @@ sign-up-container h1{
     width: 50%;
 }
 
-.left-side{
+.btn-login{
+    padding: 0%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
 
+.left-side{
     width: 50%;
-    height: 602px;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left-side h1:hover{
+    text-shadow: 2px 2px #ff0900;
+    cursor: pointer;
+}
+
+.left-side h1{
+    position: absolute;
+    color: black;
+    top: 0;
+    margin-top: -1rem;
 }
 
 .signup-form{
@@ -87,7 +105,8 @@ input{
 
 .btn:hover{
     background-color: black;
-    color: white
+    color: white;
+    border: 1px solid black;
 }
 
 
