@@ -46,7 +46,7 @@ body {
 }
 
 .btn-login:hover img {
-    transform: scale(1.1); /* Scale up on hover */
+    transform: scale(1.1); 
   }
 
 .right-side{
@@ -125,7 +125,47 @@ input{
     border: 1px solid white;
 }
 
+.left-side{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;    inset-inline-start: 0px;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* copied from w3schools for dropshadow*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
+.not-a-member{
+    color: black;
+}
 
+.not-a-member h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.btn-left{
+    background-color: white;
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.btn-left:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    
+}
 
 

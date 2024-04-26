@@ -10,7 +10,11 @@
   <body>
     <div class="sign-in-container">
       <div class="left-side">
+        <div class="not-a-member">
+          <h3>Don't have an account?</h3>
 
+          <a href="sign-up-page.html" class="btn-left">Create an Account</a>
+        </div>
 
       </div>
 
@@ -76,21 +80,7 @@
 
 
     </div>
-    <script>
-      const signUpContainer = document.querySelector('.sign-up-container');
-      const signInContainer = document.querySelector('.sign-in-container');
 
-      // Function to switch between Sign Up and Sign In
-      function switchToSignUp() {
-          signUpContainer.style.left = '0';
-          signInContainer.style.left = '100%';
-      }
-
-      function switchToSignIn() {
-          signUpContainer.style.left = '100%';
-          signInContainer.style.left = '0';
-      }
-  </script>
 
   </body>
 </html>

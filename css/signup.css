@@ -134,5 +134,37 @@ input{
     border-top-right-radius: 0.9rem;
     border-bottom-right-radius: 0.9rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* copied from w3schools for dropshadow*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
 
+.already-a-member{
+    color: white;
+}
+
+.already-a-member h3{
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-right{
+    background-color: black;
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-right:hover{
+    background-color: white;
+    color: black;
+  
+    
+}
