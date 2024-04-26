@@ -18,11 +18,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .sign-in-container{
-    
     width: 800px;
     height: 650px;
     position: relative;
@@ -32,6 +30,24 @@ body {
     padding: 3rem;
     border-radius: 0.9rem;
 }
+
+.social-login{
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.btn-login{
+    padding: 0%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-login:hover img {
+    transform: scale(1.1); /* Scale up on hover */
+  }
 
 .right-side{
     background-color: black;
@@ -110,7 +126,6 @@ input{
 }
 
 
-/* Right Side */
 
 
 
